@@ -39,6 +39,7 @@ class Demo extends React.Component {
       onSelectAll(selected, selectedRows) {
         console.log(selected, selectedRows);
       },
+      isDisabled: () => true,
     };
     const columns = [
       {
